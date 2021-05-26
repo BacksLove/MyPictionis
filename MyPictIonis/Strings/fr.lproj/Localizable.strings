@@ -1,0 +1,77 @@
+/* 
+  Localizable.strings
+  MyPictIonis
+
+  Created by Boubakar Traore on 01/08/2018.
+  Copyright © 2018 Boubakar Traore. All rights reserved.
+*/
+
+/* General message */
+
+"ERROR" = "Erreur";
+"CHANGE_FIELDS" = "Vous devez au moins modifier un champs";
+"OK" = "D'accord";
+"DONE" = "Fait";
+"LOGOUT" = "Déconnexion";
+"MY_PROFIL" = "Mon profil";
+"BACK" = "Retour";
+"VALIDATION" = "Valider";
+"CANCEL" = "Annuler";
+"ENTER_PASSWORD" = "Entrez le mot de passe";
+
+/* Login View */
+
+"LOGIN_MAIL" = "Email";
+"LOGIN_PASSWORD" = "Mot de passe";
+"LOGIN_ERROR" = "Cet utilisateur n'existe pas";
+"LOGIN_TITLE" = "Mon PictIonis";
+"LOGIN_BUTTON" = "Se connecter";
+"LOGIN_REGISTER_BUTTON" = "S'inscrire";
+
+/* Register View */
+
+"REGISTER_TITLE" = "Inscription";
+"REGISTER_LASTNAME" = "Nom";
+"REGISTER_FIRSTNAME" = "Prénom";
+"REGISTER_EMAIL" = "Email";
+"REGISTER_PASSWORD" = "Mot de passe";
+"REGISTER_USERNAME" = "Pseudo";
+"REGISTER_BUTTON" = "S'inscrire";
+"REGISTER_ERROR" = "Vous devez remplir tous les champs.";
+
+/* Home View */
+
+"HOME_MAINTITLE" = "BIENVENUE";
+"HOME_TITLE_HOST" = "Héberger une salle";
+"HOME_TITLE_JOIN" = "Rejoindre une salle";
+"HOME_HOST_NAME" = "Nom";
+"HOME_HOST_PRIVATE" = "Privée";
+"HOME_PASSWORD_HINT" = "Mot de passe";
+"HOME_BUTTON_CREATE" = "Créer";
+"HOME_ROOM_HOST" = "Hôte : ";
+"HOME_ROOM_PLAYERS" = "Joueurs : ";
+"ROOM_FULL" = "Salle pleine";
+"ROOM_FULL_MESSAGE" = "Cette salle est déja pleine.";
+"ERROR_PASSWORD_PRIVATE" = "Vous devez entrer un mot de passe pour votre salle privée.";
+"ERROR_TITLE" = "Vous devez renseigner le titre de votre salle.";
+
+/* Infos View */
+
+"INFOS_SUCCESS_MESSAGE" = "Vos informations ont été modifiées avec succès.";
+"INFOS_TITLE" = "Mes informations";
+"INFOS_TITLE_TABLE" = "Mes parties";
+"INFOS_MODIFY_BUTTON" = "Modifier";
+
+/* Room View */
+
+"FIND_THE_WORD" = "Devinez le mot";
+"DRAW_SOMETHING" = "Déssinez";
+"RESET" = "Effacer";
+"SEND" = "Envoyer";
+"CONGRAT" = "Félicitations";
+"CORRECT_ANSWER" = "Vous avez trouvé le bon mot!";
+"YOUR_TURN" = "C'est à vous !";
+
+
+
+

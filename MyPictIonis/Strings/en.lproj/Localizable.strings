@@ -1,0 +1,76 @@
+/* 
+  Localizable.strings
+  MyPictIonis
+
+  Created by Boubakar Traore on 01/08/2018.
+  Copyright © 2018 Boubakar Traore. All rights reserved.
+*/
+
+/* General message */
+
+"ERROR" = "Error";
+"CHANGE_FIELDS" = "You have to modify at least one field";
+"OK" = "Ok";
+"DONE" = "Done";
+"LOGOUT" = "Log Out";
+"MY_PROFIL" = "My profile";
+"BACK" = "Back";
+"VALIDATION" = "Validation";
+"CANCEL" = "Cancel";
+"ENTER_PASSWORD" = "Enter the password";
+
+/* Login View */
+
+"LOGIN_MAIL" = "Email";
+"LOGIN_PASSWORD" = "Password";
+"LOGIN_ERROR" = "Incorrect credentials informations";
+"LOGIN_TITLE" = "My PictIonis";
+"LOGIN_BUTTON" = "Sign In";
+"LOGIN_REGISTER_BUTTON" = "Register";
+
+/* Register View */
+
+"REGISTER_TITLE" = "Register";
+"REGISTER_LASTNAME" = "Lastname";
+"REGISTER_FIRSTNAME" = "Firstname";
+"REGISTER_EMAIL" = "Email";
+"REGISTER_PASSWORD" = "Password";
+"REGISTER_USERNAME" = "Username";
+"REGISTER_BUTTON" = "Register";
+"REGISTER_ERROR" = "You have to fill every fields";
+
+/* Home View */
+
+"HOME_MAINTITLE" = "WELCOME";
+"HOME_TITLE_HOST" = "Host a room";
+"HOME_TITLE_JOIN" = "Join a room";
+"HOME_HOST_NAME" = "Name";
+"HOME_HOST_PRIVATE" = "Private";
+"HOME_PASSWORD_HINT" = "Password";
+"HOME_BUTTON_CREATE" = "Create";
+"HOME_ROOM_HOST" = "Host : ";
+"HOME_ROOM_PLAYERS" = "Players : ";
+"ROOM_FULL" = "Room full";
+"ROOM_FULL_MESSAGE" = "This room is full of players";
+"ERROR_PASSWORD_PRIVATE" = "You have to set a password for your private room.";
+"ERROR_TITLE" = "You have to set a title for your room.";
+
+/* Infos View */
+
+"INFOS_SUCCESS_MESSAGE" = "Your informations has been changed successfully";
+"INFOS_TITLE" = "My informations";
+"INFOS_TITLE_TABLE" = "My games";
+"INFOS_MODIFY_BUTTON" = "Modify";
+
+/* Room View */
+
+"FIND_THE_WORD" = "Find the word";
+"DRAW_SOMETHING" = "Draw something";
+"RESET" = "Reset";
+"SEND" = "Send";
+"CONGRAT" = "Congratulations";
+"CORRECT_ANSWER" = "You find the word!";
+"YOUR_TURN" = "It's your turn !";
+
+
+

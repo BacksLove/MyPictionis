@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1814F344238D670900EFEAC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1814F343238D670900EFEAC7 /* GoogleService-Info.plist */; };
+		183C246E20FDEE3C00E9B00F /* DrawClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C246D20FDEE3C00E9B00F /* DrawClass.swift */; };
+		1865020D20F40DFA00575186 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1865020C20F40DFA00575186 /* RegisterViewController.swift */; };
+		1865021120F4B53700575186 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1865021020F4B53700575186 /* HomeViewController.swift */; };
+		186F980F20ECCC7400F76258 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F980E20ECCC7400F76258 /* AppDelegate.swift */; };
+		186F981120ECCC7400F76258 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F981020ECCC7400F76258 /* LoginViewController.swift */; };
+		186F981420ECCC7400F76258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186F981220ECCC7400F76258 /* Main.storyboard */; };
+		186F981620ECCC7600F76258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186F981520ECCC7600F76258 /* Assets.xcassets */; };
+		186F981920ECCC7600F76258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186F981720ECCC7600F76258 /* LaunchScreen.storyboard */; };
+		186F982420ECCC7600F76258 /* MyPictIonisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F982320ECCC7600F76258 /* MyPictIonisTests.swift */; };
+		186F982F20ECCC7600F76258 /* MyPictIonisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F982E20ECCC7600F76258 /* MyPictIonisUITests.swift */; };
+		1892AA1D2141649B0019C195 /* NextTurnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892AA1C2141649B0019C195 /* NextTurnViewController.swift */; };
+		1894CB562110DC89001128ED /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1894CB552110DC89001128ED /* ChatMessage.swift */; };
+		1894CB682111A0EC001128ED /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1894CB6A2111A0EC001128ED /* Localizable.strings */; };
+		18A450BD20F6277800D0EAD9 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A450BC20F6277800D0EAD9 /* Room.swift */; };
+		18A450C020F78BC900D0EAD9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A450BF20F78BC900D0EAD9 /* User.swift */; };
+		18AB1D3E20FC93E7009CB1AE /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB1D3D20FC93E7009CB1AE /* RoomViewController.swift */; };
+		18AB1D4020FC940F009CB1AE /* DataTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB1D3F20FC940F009CB1AE /* DataTestViewController.swift */; };
+		18AB1D4220FC9465009CB1AE /* InfosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB1D4120FC9465009CB1AE /* InfosViewController.swift */; };
+		18C2BE382109B9E400F36EB4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2BE372109B9E400F36EB4 /* Extension.swift */; };
+		18E9672E2105D28900E7B844 /* RoomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9672D2105D28900E7B844 /* RoomFunctions.swift */; };
+		7D4908B2A6E63E168F52D3A9 /* Pods_MyPictIonisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1E246341C676DCE6504FDA /* Pods_MyPictIonisTests.framework */; };
+		C2B6AA4D2AE747A97114BA21 /* Pods_MyPictIonisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A63F99445E68DFE1BBA37A /* Pods_MyPictIonisUITests.framework */; };
+		C77E0F62BDE6380CCD83A986 /* Pods_MyPictIonis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB0C67514A2E64724604DDB /* Pods_MyPictIonis.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		186F982020ECCC7600F76258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186F980320ECCC7400F76258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186F980A20ECCC7400F76258;
+			remoteInfo = MyPictIonis;
+		};
+		186F982B20ECCC7600F76258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186F980320ECCC7400F76258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186F980A20ECCC7400F76258;
+			remoteInfo = MyPictIonis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F1E246341C676DCE6504FDA /* Pods_MyPictIonisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPictIonisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1814F343238D670900EFEAC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		183C246D20FDEE3C00E9B00F /* DrawClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawClass.swift; sourceTree = "<group>"; };
+		1865020C20F40DFA00575186 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1865021020F4B53700575186 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		186F980B20ECCC7400F76258 /* MyPictIonis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPictIonis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186F980E20ECCC7400F76258 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		186F981020ECCC7400F76258 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		186F981320ECCC7400F76258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		186F981520ECCC7600F76258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		186F981820ECCC7600F76258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		186F981A20ECCC7600F76258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186F981F20ECCC7600F76258 /* MyPictIonisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPictIonisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186F982320ECCC7600F76258 /* MyPictIonisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPictIonisTests.swift; sourceTree = "<group>"; };
+		186F982520ECCC7600F76258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186F982A20ECCC7600F76258 /* MyPictIonisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPictIonisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186F982E20ECCC7600F76258 /* MyPictIonisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPictIonisUITests.swift; sourceTree = "<group>"; };
+		186F983020ECCC7600F76258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1892AA1C2141649B0019C195 /* NextTurnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTurnViewController.swift; sourceTree = "<group>"; };
+		1894CB552110DC89001128ED /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		1894CB642111A0DD001128ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		1894CB652111A0DE001128ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		1894CB662111A0E1001128ED /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		1894CB672111A0E1001128ED /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		1894CB692111A0EC001128ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1894CB6B2111A0EE001128ED /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1894CB6C2111A0F4001128ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		18A450BC20F6277800D0EAD9 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		18A450BF20F78BC900D0EAD9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		18AB1D3D20FC93E7009CB1AE /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		18AB1D3F20FC940F009CB1AE /* DataTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTestViewController.swift; sourceTree = "<group>"; };
+		18AB1D4120FC9465009CB1AE /* InfosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfosViewController.swift; sourceTree = "<group>"; };
+		18C2BE372109B9E400F36EB4 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		18E9672D2105D28900E7B844 /* RoomFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomFunctions.swift; sourceTree = "<group>"; };
+		1F6DF575C38032EB7834D5E2 /* Pods-MyPictIonisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPictIonisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyPictIonisTests/Pods-MyPictIonisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		25147E5259785C5DB7CEDA24 /* Pods-MyPictIonis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPictIonis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyPictIonis/Pods-MyPictIonis.debug.xcconfig"; sourceTree = "<group>"; };
+		2B4AFD8B6A0118F03499894B /* Pods-MyPictIonisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPictIonisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyPictIonisUITests/Pods-MyPictIonisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6797CD5DEA41888460BE95DA /* Pods-MyPictIonis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPictIonis.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyPictIonis/Pods-MyPictIonis.release.xcconfig"; sourceTree = "<group>"; };
+		82859B8CC60B2A896627001D /* Pods-MyPictIonisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPictIonisUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyPictIonisUITests/Pods-MyPictIonisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		94A63F99445E68DFE1BBA37A /* Pods_MyPictIonisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPictIonisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD795CE57F4E6260C8C5906F /* Pods-MyPictIonisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPictIonisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyPictIonisTests/Pods-MyPictIonisTests.release.xcconfig"; sourceTree = "<group>"; };
+		EDB0C67514A2E64724604DDB /* Pods_MyPictIonis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPictIonis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		186F980820ECCC7400F76258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77E0F62BDE6380CCD83A986 /* Pods_MyPictIonis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186F981C20ECCC7600F76258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4908B2A6E63E168F52D3A9 /* Pods_MyPictIonisTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186F982720ECCC7600F76258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B6AA4D2AE747A97114BA21 /* Pods_MyPictIonisUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1865020E20F4AD2B00575186 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1865020C20F40DFA00575186 /* RegisterViewController.swift */,
+				186F981020ECCC7400F76258 /* LoginViewController.swift */,
+				1865021020F4B53700575186 /* HomeViewController.swift */,
+				18AB1D3D20FC93E7009CB1AE /* RoomViewController.swift */,
+				18AB1D3F20FC940F009CB1AE /* DataTestViewController.swift */,
+				18AB1D4120FC9465009CB1AE /* InfosViewController.swift */,
+				1892AA1C2141649B0019C195 /* NextTurnViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1865020F20F4AD4100575186 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				186F981220ECCC7400F76258 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		186F980220ECCC7400F76258 = {
+			isa = PBXGroup;
+			children = (
+				186F980D20ECCC7400F76258 /* MyPictIonis */,
+				186F982220ECCC7600F76258 /* MyPictIonisTests */,
+				186F982D20ECCC7600F76258 /* MyPictIonisUITests */,
+				186F980C20ECCC7400F76258 /* Products */,
+				B01B1A6CFA9522F04E7BC7E5 /* Pods */,
+				A1B464DB424DFDD1650E6079 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		186F980C20ECCC7400F76258 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186F980B20ECCC7400F76258 /* MyPictIonis.app */,
+				186F981F20ECCC7600F76258 /* MyPictIonisTests.xctest */,
+				186F982A20ECCC7600F76258 /* MyPictIonisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		186F980D20ECCC7400F76258 /* MyPictIonis */ = {
+			isa = PBXGroup;
+			children = (
+				1894CB582110E7AC001128ED /* Strings */,
+				1896BE782101CFB70016DCF9 /* Functions */,
+				18A450BB20F6276600D0EAD9 /* Model */,
+				1865020F20F4AD4100575186 /* View */,
+				1865020E20F4AD2B00575186 /* Controller */,
+				186F980E20ECCC7400F76258 /* AppDelegate.swift */,
+				186F981520ECCC7600F76258 /* Assets.xcassets */,
+				186F981720ECCC7600F76258 /* LaunchScreen.storyboard */,
+				186F981A20ECCC7600F76258 /* Info.plist */,
+				1814F343238D670900EFEAC7 /* GoogleService-Info.plist */,
+			);
+			path = MyPictIonis;
+			sourceTree = "<group>";
+		};
+		186F982220ECCC7600F76258 /* MyPictIonisTests */ = {
+			isa = PBXGroup;
+			children = (
+				186F982320ECCC7600F76258 /* MyPictIonisTests.swift */,
+				186F982520ECCC7600F76258 /* Info.plist */,
+			);
+			path = MyPictIonisTests;
+			sourceTree = "<group>";
+		};
+		186F982D20ECCC7600F76258 /* MyPictIonisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				186F982E20ECCC7600F76258 /* MyPictIonisUITests.swift */,
+				186F983020ECCC7600F76258 /* Info.plist */,
+			);
+			path = MyPictIonisUITests;
+			sourceTree = "<group>";
+		};
+		1894CB582110E7AC001128ED /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				1894CB6A2111A0EC001128ED /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		1896BE782101CFB70016DCF9 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				18E9672D2105D28900E7B844 /* RoomFunctions.swift */,
+				18C2BE372109B9E400F36EB4 /* Extension.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		18A450BB20F6276600D0EAD9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18A450BC20F6277800D0EAD9 /* Room.swift */,
+				18A450BF20F78BC900D0EAD9 /* User.swift */,
+				183C246D20FDEE3C00E9B00F /* DrawClass.swift */,
+				1894CB552110DC89001128ED /* ChatMessage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1B464DB424DFDD1650E6079 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDB0C67514A2E64724604DDB /* Pods_MyPictIonis.framework */,
+				0F1E246341C676DCE6504FDA /* Pods_MyPictIonisTests.framework */,
+				94A63F99445E68DFE1BBA37A /* Pods_MyPictIonisUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B01B1A6CFA9522F04E7BC7E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25147E5259785C5DB7CEDA24 /* Pods-MyPictIonis.debug.xcconfig */,
+				6797CD5DEA41888460BE95DA /* Pods-MyPictIonis.release.xcconfig */,
+				1F6DF575C38032EB7834D5E2 /* Pods-MyPictIonisTests.debug.xcconfig */,
+				AD795CE57F4E6260C8C5906F /* Pods-MyPictIonisTests.release.xcconfig */,
+				82859B8CC60B2A896627001D /* Pods-MyPictIonisUITests.debug.xcconfig */,
+				2B4AFD8B6A0118F03499894B /* Pods-MyPictIonisUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		186F980A20ECCC7400F76258 /* MyPictIonis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186F983320ECCC7600F76258 /* Build configuration list for PBXNativeTarget "MyPictIonis" */;
+			buildPhases = (
+				CA485374A03057E46D0C539F /* [CP] Check Pods Manifest.lock */,
+				186F980720ECCC7400F76258 /* Sources */,
+				186F980820ECCC7400F76258 /* Frameworks */,
+				186F980920ECCC7400F76258 /* Resources */,
+				AD9BA52980ED253912C474A8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPictIonis;
+			productName = MyPictIonis;
+			productReference = 186F980B20ECCC7400F76258 /* MyPictIonis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		186F981E20ECCC7600F76258 /* MyPictIonisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186F983620ECCC7600F76258 /* Build configuration list for PBXNativeTarget "MyPictIonisTests" */;
+			buildPhases = (
+				8802A6C8AB87A0432DD485D7 /* [CP] Check Pods Manifest.lock */,
+				186F981B20ECCC7600F76258 /* Sources */,
+				186F981C20ECCC7600F76258 /* Frameworks */,
+				186F981D20ECCC7600F76258 /* Resources */,
+				9BEE5C5E19C46F4844A15BBC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186F982120ECCC7600F76258 /* PBXTargetDependency */,
+			);
+			name = MyPictIonisTests;
+			productName = MyPictIonisTests;
+			productReference = 186F981F20ECCC7600F76258 /* MyPictIonisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		186F982920ECCC7600F76258 /* MyPictIonisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186F983920ECCC7600F76258 /* Build configuration list for PBXNativeTarget "MyPictIonisUITests" */;
+			buildPhases = (
+				F886DBB343008E317A3F25FB /* [CP] Check Pods Manifest.lock */,
+				186F982620ECCC7600F76258 /* Sources */,
+				186F982720ECCC7600F76258 /* Frameworks */,
+				186F982820ECCC7600F76258 /* Resources */,
+				55C339F7309C84D268BED4AF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186F982C20ECCC7600F76258 /* PBXTargetDependency */,
+			);
+			name = MyPictIonisUITests;
+			productName = MyPictIonisUITests;
+			productReference = 186F982A20ECCC7600F76258 /* MyPictIonisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		186F980320ECCC7400F76258 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Boubakar Traore";
+				TargetAttributes = {
+					186F980A20ECCC7400F76258 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1030;
+					};
+					186F981E20ECCC7600F76258 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1030;
+						TestTargetID = 186F980A20ECCC7400F76258;
+					};
+					186F982920ECCC7600F76258 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1030;
+						TestTargetID = 186F980A20ECCC7400F76258;
+					};
+				};
+			};
+			buildConfigurationList = 186F980620ECCC7400F76258 /* Build configuration list for PBXProject "MyPictIonis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = 186F980220ECCC7400F76258;
+			productRefGroup = 186F980C20ECCC7400F76258 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				186F980A20ECCC7400F76258 /* MyPictIonis */,
+				186F981E20ECCC7600F76258 /* MyPictIonisTests */,
+				186F982920ECCC7600F76258 /* MyPictIonisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186F980920ECCC7400F76258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1894CB682111A0EC001128ED /* Localizable.strings in Resources */,
+				186F981920ECCC7600F76258 /* LaunchScreen.storyboard in Resources */,
+				186F981620ECCC7600F76258 /* Assets.xcassets in Resources */,
+				1814F344238D670900EFEAC7 /* GoogleService-Info.plist in Resources */,
+				186F981420ECCC7400F76258 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186F981D20ECCC7600F76258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186F982820ECCC7600F76258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55C339F7309C84D268BED4AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyPictIonisUITests/Pods-MyPictIonisUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac-Defines-NSData+zlib/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyPictIonisUITests/Pods-MyPictIonisUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8802A6C8AB87A0432DD485D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyPictIonisTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BEE5C5E19C46F4844A15BBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyPictIonisTests/Pods-MyPictIonisTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac-Defines-NSData+zlib/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyPictIonisTests/Pods-MyPictIonisTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD9BA52980ED253912C474A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyPictIonis/Pods-MyPictIonis-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac-f0850809/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyPictIonis/Pods-MyPictIonis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA485374A03057E46D0C539F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyPictIonis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F886DBB343008E317A3F25FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyPictIonisUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186F980720ECCC7400F76258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AB1D4020FC940F009CB1AE /* DataTestViewController.swift in Sources */,
+				1865020D20F40DFA00575186 /* RegisterViewController.swift in Sources */,
+				1892AA1D2141649B0019C195 /* NextTurnViewController.swift in Sources */,
+				183C246E20FDEE3C00E9B00F /* DrawClass.swift in Sources */,
+				18C2BE382109B9E400F36EB4 /* Extension.swift in Sources */,
+				186F981120ECCC7400F76258 /* LoginViewController.swift in Sources */,
+				18E9672E2105D28900E7B844 /* RoomFunctions.swift in Sources */,
+				18AB1D3E20FC93E7009CB1AE /* RoomViewController.swift in Sources */,
+				18A450C020F78BC900D0EAD9 /* User.swift in Sources */,
+				186F980F20ECCC7400F76258 /* AppDelegate.swift in Sources */,
+				1865021120F4B53700575186 /* HomeViewController.swift in Sources */,
+				1894CB562110DC89001128ED /* ChatMessage.swift in Sources */,
+				18A450BD20F6277800D0EAD9 /* Room.swift in Sources */,
+				18AB1D4220FC9465009CB1AE /* InfosViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186F981B20ECCC7600F76258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186F982420ECCC7600F76258 /* MyPictIonisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186F982620ECCC7600F76258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186F982F20ECCC7600F76258 /* MyPictIonisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		186F982120ECCC7600F76258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186F980A20ECCC7400F76258 /* MyPictIonis */;
+			targetProxy = 186F982020ECCC7600F76258 /* PBXContainerItemProxy */;
+		};
+		186F982C20ECCC7600F76258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186F980A20ECCC7400F76258 /* MyPictIonis */;
+			targetProxy = 186F982B20ECCC7600F76258 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		186F981220ECCC7400F76258 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186F981320ECCC7400F76258 /* Base */,
+				1894CB652111A0DE001128ED /* en */,
+				1894CB662111A0E1001128ED /* fr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		186F981720ECCC7600F76258 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186F981820ECCC7600F76258 /* Base */,
+				1894CB642111A0DD001128ED /* en */,
+				1894CB672111A0E1001128ED /* fr */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1894CB6A2111A0EC001128ED /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1894CB692111A0EC001128ED /* en */,
+				1894CB6B2111A0EE001128ED /* fr */,
+				1894CB6C2111A0F4001128ED /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		186F983120ECCC7600F76258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		186F983220ECCC7600F76258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		186F983420ECCC7600F76258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25147E5259785C5DB7CEDA24 /* Pods-MyPictIonis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WW227T5VN5;
+				INFOPLIST_FILE = MyPictIonis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boubakar.MyPictIonis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		186F983520ECCC7600F76258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6797CD5DEA41888460BE95DA /* Pods-MyPictIonis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WW227T5VN5;
+				INFOPLIST_FILE = MyPictIonis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boubakar.MyPictIonis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		186F983720ECCC7600F76258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6DF575C38032EB7834D5E2 /* Pods-MyPictIonisTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55557K7C82;
+				INFOPLIST_FILE = MyPictIonisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = etna.MyPictIonisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPictIonis.app/MyPictIonis";
+			};
+			name = Debug;
+		};
+		186F983820ECCC7600F76258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD795CE57F4E6260C8C5906F /* Pods-MyPictIonisTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55557K7C82;
+				INFOPLIST_FILE = MyPictIonisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = etna.MyPictIonisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPictIonis.app/MyPictIonis";
+			};
+			name = Release;
+		};
+		186F983A20ECCC7600F76258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82859B8CC60B2A896627001D /* Pods-MyPictIonisUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55557K7C82;
+				INFOPLIST_FILE = MyPictIonisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = etna.MyPictIonisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyPictIonis;
+			};
+			name = Debug;
+		};
+		186F983B20ECCC7600F76258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B4AFD8B6A0118F03499894B /* Pods-MyPictIonisUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55557K7C82;
+				INFOPLIST_FILE = MyPictIonisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = etna.MyPictIonisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyPictIonis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		186F980620ECCC7400F76258 /* Build configuration list for PBXProject "MyPictIonis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186F983120ECCC7600F76258 /* Debug */,
+				186F983220ECCC7600F76258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186F983320ECCC7600F76258 /* Build configuration list for PBXNativeTarget "MyPictIonis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186F983420ECCC7600F76258 /* Debug */,
+				186F983520ECCC7600F76258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186F983620ECCC7600F76258 /* Build configuration list for PBXNativeTarget "MyPictIonisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186F983720ECCC7600F76258 /* Debug */,
+				186F983820ECCC7600F76258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186F983920ECCC7600F76258 /* Build configuration list for PBXNativeTarget "MyPictIonisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186F983A20ECCC7600F76258 /* Debug */,
+				186F983B20ECCC7600F76258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 186F980320ECCC7400F76258 /* Project object */;
+}
